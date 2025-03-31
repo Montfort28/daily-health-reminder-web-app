@@ -1,29 +1,39 @@
-# daily-health-reminder
+# Health Reminder App
 
-This template should help get you started developing with Vue 3 in Vite.
+A simple app I built to help keep track of health-related tasks and reminders.
 
-## Recommended IDE Setup
+## What it does
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- Keeps track of medication, exercise, water, and other health reminders
+- Sends notifications when it's time for a reminder
+- Has a dark mode option
+- Stores all data locally so it works offline
+- Categories for different types of reminders
 
-## Customize configuration
+## How I built it
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+I used:
+- Vue.js
+- TailwindCSS for styling
+- IndexedDB for storing reminders
+- Browser notifications
 
-## Project Setup
+## Setup
 
-```sh
-npm install
-```
+If you want to run this yourself:
 
-### Compile and Hot-Reload for Development
+1. Clone the repo
+2. Run `npm install`
+3. Run `npm run dev` to start development server
+4. Run `npm run build` to build for production
 
-```sh
-npm run dev
-```
+## Features I'm proud of
 
-### Compile and Minify for Production
+- The notification system that can send reminders ahead of time
+- Category filtering in the notification center
+- The clean UI with dark mode support
+- How everything is saved locally
 
-```sh
-npm run build
-```
+## Demo
+
+Check out the live version at [https://daily-health-reminder-web-app.vercel.app/].
