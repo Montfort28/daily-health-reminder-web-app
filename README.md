@@ -1,4 +1,4 @@
-# Daily-Health-Reminder Web App
+# Daily Health Reminder Web App
 
 A simple app I built to help keep track of health-related tasks and reminders.
 
